@@ -1,11 +1,14 @@
-import React from 'react';
-import HigherOrderFunctions from './components/hof/HigherOrderFunctions';
+import React from "react";
 import './App.css';
+import HigherOrderFunctions from "./components/HigherOrderFunctions";
 
 function App() {
   return (
     <div className="App">
+      
+      <HigherOrderFunctions/>
     </div>
+    
   );
 }
 
